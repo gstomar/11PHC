@@ -1,0 +1,67 @@
+<section class="main-banner">
+  <div id="mainbanner" class="carousel slide carousel-fade" data-ride="carousel"> 
+    <ol class="carousel-indicators">
+      <li data-target="#mainbanner" data-slide-to="0" class="active"></li>&nbsp;
+      <li data-target="#mainbanner" data-slide-to="1"></li>&nbsp;
+      <li data-target="#mainbanner" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">            
+      <div class="item active"> <img src="../../assets/images/slide1.jpg" alt="loading" class="img-responsive">
+      </div>
+      <div class="item"> <img src="../../assets/images/slide1.jpg" alt="loading" class="img-responsive">
+      </div>
+      <div class="item"> <img src="../../assets/images/slide3.jpg" alt="loading" class="img-responsive">
+      </div>            
+    </div>
+    <div class="carousel-caption">
+      <div class="container">
+        <p>WELCOME TO 11 PLUS HELP CLUB</p>
+        <small style="font-size: 15px">SHAPE YOUR FUTURE HERE</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact-outer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <h2 class="main_heading fadeInDown text-center" data-wow-duration="1s" data-wow-delay="0.5s">Get In Touch<span></span></h2>
+        <form name="contact-form" id="contact-form" class="form fadeInUp  text-center" data-wow-duration="1s" data-wow-delay="0.7s"  method="post">
+          <span id="msg_span" ></span>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="text" name="txt_name" autocomplete="off" onFocus="remove_contact_msg();" placeholder="NAME" class="form-control" >
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="tel" name="txt_tel" autocomplete="off" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode && event.keyCode<58 && event.shiftKey==false) || (95<event.keyCode && event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 && event.keyCode<40) || (event.keyCode==46) )" placeholder="MOBILE" maxlength="10" class="form-control" >
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="email" name="txt_email" autocomplete="off" placeholder="EMAIL" class="form-control" >
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input type="text" name="txt_city" autocomplete="off" placeholder="CITY" class="form-control" >
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="form-group">
+                <textarea name="txt_comm" placeholder="COMMENTS" class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <input type="hidden" name="submit_btn" value="submit_btn">
+              <input type="submit" name="btn_cont" id="btn_cont" value="Submit" class="btn contact-btn">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
